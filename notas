@@ -19,11 +19,24 @@ Lista os repositórios remotos conectados ao projeto.
 git pull
 Baixa e integra as alterações do repositório remoto para o local.
 
-git push
 Envia os commits locais para o repositório remoto.
+git push
+
+Se for o primeiro push de um novo branch, use:
+git push -u origin nome-do-branch
 
 git checkout main
 Certifica de estar no branch principal
 
 git checkout -b alternativa
 Crie e mude para um novo branch, por exemplo, chamado alternativa
+
+git branch
+Para ver todos os branches
+
+Para alternar entre eles:
+git checkout main
+git checkout alternativa-1
+
+Se quiser enviar o branch alternativo para o GitHub, use:
+git push -u origin alternativa-1
