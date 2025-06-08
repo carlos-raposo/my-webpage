@@ -1,0 +1,29 @@
+git init
+Inicializa um novo repositório Git na pasta atual, criando a estrutura necessária para o controle de versões.
+
+git add .
+Adiciona todos os arquivos e pastas do projeto para a área de preparação (staging area), preparando-os para o commit.
+
+git commit -m "Primeiro commit: estrutura inicial do projeto"
+Salva (commita) as alterações adicionadas, criando um ponto de histórico com a mensagem informada. Isso registra o estado atual do projeto no repositório Git.
+
+git status
+Mostra o estado atual dos arquivos no repositório (quais foram modificados, adicionados, etc).
+
+git log
+Exibe o histórico de commits do repositório.
+
+git remote -v
+Lista os repositórios remotos conectados ao projeto.
+
+git pull
+Baixa e integra as alterações do repositório remoto para o local.
+
+git push
+Envia os commits locais para o repositório remoto.
+
+git checkout main
+Certifica de estar no branch principal
+
+git checkout -b alternativa
+Crie e mude para um novo branch, por exemplo, chamado alternativa

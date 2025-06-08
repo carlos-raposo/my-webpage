@@ -35,6 +35,10 @@ To get started with this project, follow these steps:
 3. **Open the webpage**:
    You can open `src/index.html` in your web browser to view the webpage.
 
+## Notes
+
+- adicionamos a pasta .vscode com o ficheiro settings.json para desocultar a pasta git
+
 ## Usage
 
 - Modify the HTML in `src/index.html` to change the structure of the webpage.
@@ -48,3 +52,5 @@ If you would like to contribute to this project, please fork the repository and 
 ## License
 
 This project is licensed under the MIT License.
+
+
